@@ -1,0 +1,165 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(jane-last-k60YOEjB75k-unsplash\ \(1\).jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 7%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    
+}
+.nav-links ul a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #fff;
+}
+.nav-links ul li::after{
+    content: "";
+    background-color: red;
+    height: 3px;
+    width: 0%;
+    display: block;
+    margin: auto;
+    transition: 1S;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.uni{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.uni h1{
+    font-size: 45px;
+    margin-bottom: 2%;
+}
+.uni p{
+    font-size: 25px;
+    color: #ccc;
+    margin-bottom: 5%;
+}
+.btn{
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 30px 40px;
+    font-size: 30px;
+    text-decoration: none;
+    transition: 1s;
+    color: #fff;
+}
+.btn:hover{
+background: rgb(194, 86, 47);
+}
+.course{
+   width: 80%;
+   margin: auto;
+   text-align: center;
+}
+
+/*******************/
+.course {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.course h2{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.course p {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.col{
+    background-color: lightcoral;
+    border-radius: 10px;
+    flex-basis: 32%;
+    margin: 20px;
+    padding: 30px;
+       
+
+}
+.col h3{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.col p {
+    font-size: 35px;
+
+}
+
+.countries{
+    width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 70px;
+}
+.countries p{
+    padding: 40px;
+}
+.comtainer{
+    position: relative;
+overflow: hidden;
+flex-basis: 30%;
+
+}
+.comtainer img{
+    width: 100%;
+}
+.layer{
+    position: absolute;
+    top:0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.facilities{
+    width: 80%;
+    text-align: center;
+    margin:auto;
+    padding: 30px;
+}
+.facilities p{
+    padding: 40px;
+}
+.circle{
+ display: flex;
+ justify-content: space-between;
+    
+}
+.cyc{
+    flex-basis: 32%;
+    margin: 20px;
+}
+.cyc img{
+    width: 100%;
+}
+.our{
+    text-align: center;
+}
+.our p{
+    margin: 40px;
+}
